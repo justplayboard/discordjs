@@ -70,7 +70,7 @@ client.on('interactionCreate', async interaction => {
             adapterCreator: interaction.member.voice.channel.guild.voiceAdapterCreator,
         });
     
-        const url = 'https://www.youtube.com/watch?v=5qap5aO4i9A';
+        const url = 'https://www.youtube.com/watch?v=jfKfPfyJRdk';
         var stream = await ytdl(url, {
             highWaterMark: 1 << 25,
             filter: 'audioonly',
